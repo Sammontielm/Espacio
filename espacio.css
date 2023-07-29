@@ -1,0 +1,127 @@
+body{
+    background: url("images/prueba.jpg");
+    background-size: 1500px;
+    width: 100%;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+}
+
+.universo{
+    color:#d34a4a;
+    display: flex;
+    justify-content: center;
+    background-size: 1500px;
+    font-size: 4em;
+}
+
+header nav{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    opacity: 70%;
+}
+
+header nav .nav-titulo{
+    display: flex;
+    justify-content: start;
+    color: rgb(55, 175, 149);
+    font-style: italic;
+    margin:0 3%;
+    font-size: 3em;
+}
+
+header nav .nav-navegacion{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+
+}
+
+nav .nav-item{
+    margin: 3vh;
+}
+
+nav .nav-link{
+    text-decoration: none;
+    color: #d34a4a;
+    font-size: 16pt;
+}
+
+nav .nav-navegacion{
+    color:black;
+    text-decoration:none;
+    margin-right: 15px;
+}
+
+.lista{
+    width: 100%;
+}
+
+.contenido{
+    margin: 8%;
+    opacity: 60%;
+    background-color: antiquewhite;
+    font-size: 150%;
+    text-align: justify;
+    padding: 5%;
+    line-height: 2;
+    padding-top: 0.5%;
+    margin-top: 3%;
+}
+
+h3 {
+    color: rgb(70, 8, 16);
+    text-align: center;
+    font-size: 2em;
+}
+
+blink {
+    animation: 1s linear infinite condemned_blink_effect;
+}
+
+@keyframes condemned_blink_effect{
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+div .div_boton{
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    color: #d34a4a;
+    font-weight: 700;
+    font-size: 1em;
+    background-color: ivory;
+    border-radius: 8%;
+}
+
+.cuadrito{
+    background-color: transparent;
+    margin: 0 5%;
+}
+
+.Planet input{
+    display: none;
+}
+
+.Planet img{
+    width: 8%;
+    border: 5px solid transparent;
+    margin: 1%;
+}
+
+.Planet input:checked  + img{
+    border-color: rgb(187, 27, 160);
+}
